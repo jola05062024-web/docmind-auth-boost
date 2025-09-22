@@ -59,6 +59,7 @@ const SignUp = () => {
         description: "Welcome to Smart Doc Checker! Please check your email to verify your account.",
       });
       setIsLoading(false);
+      window.location.href = "https://doc-mind-enhancer.lovable.app";
     }, 1500);
   };
 

@@ -28,7 +28,7 @@ const SignIn = () => {
         description: "Welcome back to Smart Doc Checker!",
       });
       setIsLoading(false);
-      navigate("/");
+      window.location.href = "https://doc-mind-enhancer.lovable.app";
     }, 1500);
   };
 
